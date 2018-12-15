@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///Users/akkwut/Desktop/project/web/index.html?c6=0.4 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Animated 3D Bar Chart with CSS3">
+<meta name="keywords" content="css3, bar chart, animation, 3d">
+<meta name="author" content="Sergey Lukin for Codrops">
+
+<link rel="shortcut icon" href="file:///Users/akkwut/Desktop/project/favicon.ico">
+<link rel="stylesheet" href="./Project_files/animate.min.css">
+<link rel="stylesheet" type="text/css" href="./Project_files/demo.css">
+<link rel="stylesheet" type="text/css" href="./Project_files/graph.css">
+<link rel="stylesheet" href="./Project_files/style.css">
+
+
+<script src="./Project_files/jquery.min.js"></script>
+<link href="./Project_files/css" rel="stylesheet">
+
+
+
+    <title>Project</title>
+
+</head>
+
+<body>
+    <div class="sesstion-center wrapper-notice">
+        <div class="title">
+            <h1>รู้ไหม ?</h1>
+            <ul class="title-ul">
+                <h2><span>ว่าคนไทยเป็น</span>เบาหวาน<span>เพิ่มขึ้นทุกปีเลยนะ</span></h2>
+            </ul>
+
+            <img src="./Project_files/Loudly_Crying_Face_Emoji.png" style="height: 16%; width: 16%; ">
+
+            <h5>คนวัยทำงานมีเบาหวานเพิ่มขึ้นถึงปีละ 10% ต่อปี</h5>
+
+        </div>
+    </div>
+    <div class="sesstion-center warpper-graph">
+        <div class="main-head"> โรคเบาหวานทั้งหมดในกลุ่มประชากรระหว่างปี พ.ศ.2553-2557 <br><span>วารสารควบคุมโรค ปีที่ 43
+                ฉบับที่ 4 ต.ค. - ธ.ค. 2560</span> </div>
+        <div class="container-overflow">
+            <div class="main">
+                <span class="button-label"></span>
+                <input type="checkbox" name="resize-graph" id="graph-small"><label for="graph-small">Small</label>
+                <input type="checkbox" name="resize-graph" id="graph-normal" checked="checked"><label for="graph-normal">Normal</label>
+                <input type="checkbox" name="resize-graph" id="graph-large"><label for="graph-large">Large</label>
+
+
+
+                <span class="button-label">อายุ:</span>
+                <input type="radio" name="fill-graph" id="f-none"><label for="f-none">None</label>
+                <input type="radio" name="fill-graph" id="f-product1" checked="checked"><label for="f-product1">30-39</label>
+                <input type="radio" name="fill-graph" id="f-product2"><label for="f-product2">40-49</label>
+                <input type="radio" name="fill-graph" id="f-product3"><label for="f-product3">50-59</label>
+
+                <ul class="graph-container">
+                    <li>
+                        <span>2553</span>
+                        <div class="bar-wrapper">
+                            <div class="bar-container">
+                                <div class="bar-background"></div>
+                                <div class="bar-inner">25</div>
+                                <div class="bar-foreground"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>2554</span>
+                        <div class="bar-wrapper">
+                            <div class="bar-container">
+                                <div class="bar-background"></div>
+                                <div class="bar-inner">50</div>
+                                <div class="bar-foreground"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>2555</span>
+                        <div class="bar-wrapper">
+                            <div class="bar-container">
+                                <div class="bar-background"></div>
+                                <div class="bar-inner">75</div>
+                                <div class="bar-foreground"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>2556</span>
+                        <div class="bar-wrapper">
+                            <div class="bar-container">
+                                <div class="bar-background"></div>
+                                <div class="bar-inner">100</div>
+                                <div class="bar-foreground"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <span>2557</span>
+                        <div class="bar-wrapper">
+                            <div class="bar-container">
+                                <div class="bar-background"></div>
+                                <div class="bar-inner">50</div>
+                                <div class="bar-foreground"></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="sesstion-center sesstion-3x">
+
+    </div>
+
+
+
+    <div class="sesstion-center sesstion-human ">
+        <div class="humanicon">
+            <img id="human" src="./Project_files/standing-man copy1.png">
+        </div>
+        <div class="eye">
+            <img id="eye" src="./Project_files/preview.png" class="d-none" width="100">
+        </div>
+        <div class="heart">
+            <img id="heart" src="./Project_files/Twitter_UI-24-512.png" class="d-none" width="150">
+        </div>
+        <div class="kidney">
+            <img id="kidney" src="./Project_files/kidney.png" class="d-none" width="100">
+        </div>
+        <div class="foot">
+            <img id="foot" src="./Project_files/right-footprint copy.png" class="d-none" width="100">
+        </div>
+
+
+
+
+
+        <div id="human_1" class="human-tag human-tag-1 d-none">
+            <h3>
+                ภาวะแทรกซ้อนทางตา
+            </h3>
+            <span p="">
+                เป็นภาวะแทรกซ้อนจากโรคเบาหวาน <br> ที่มีระดับน้ำตาลในเลือดสูงเป็นเวลานาน ทำให้เส้นเลือดที่เรตินาหรือจอตาได้รับความเสียหายจากน้ำตาลอุดตันและเลือดไม่สามารถไหลเวียนได้ตามปกติ
+                ในช่วงแรกอาจไม่พบอาการหรืออาจมองเห็นผิดปกติเพียงเล็กน้อย แต่หากมีอาการรุนแรง แล้วปล่อยไว้ไม่เข้ารับการรักษาอาจทำให้สูญเสียการมองเห็นได้ในที่สุด
+            </span>
+        </div>
+        <div id="human_2" class="human-tag human-tag-2 d-none">
+            <h3>
+                ภาวะแทรกซ้อนของหลอดเลือดขนาดใหญ่
+            </h3>
+            <span p="">
+                เมื่อระดับน้ำตาลถูกสะสมในเลือดในปริมาณมาก ทำให้เกิดการหนาตัวของเส้นเลือดมากขึ้น โดยเฉพาะหลอดเลือดขนาดใหญ่ที่ไปเลี้ยงหัวใจ
+                เป็นผลให้เส้นเลือดแคบลงและอาจเกิดการอุดตัน
+            </span>
+        </div>
+        <div id="human_3" class="human-tag human-tag-1 d-none">
+            <h3>
+                ภาวะแทรกซ้อนทางไต
+            </h3>
+            <span p="">
+                ป็นโรคสำคัญอีกโรคหนึ่งที่เกิดขึ้นกับผู้ป่วยโรคเบาหวาน เนื่องจากปริมาณน้ำตาลในเลือดที่มีมากขึ้นกว่าคนปกติ ทำให้ไตทำงานผิดปกติ
+                มีโปรตีนเล็ดลอดออกทางปัสสาวะ ซึ่งในระยะแรกจะไม่สามารถตรวจพบโรคแทรกซ้อนนี้ได้จากการตรวจเลือด
+            </span>
+        </div>
+        <div id="human_4" class="human-tag human-tag-2 d-none">
+            <h3>
+                แผลเบาหวานที่เท้า
+            </h3>
+            <span p="">
+                ความเสียหายของเส้นประสาทบริเวณเท้าและการไหลเวียนของเส้นเลือดที่ไม่มีประสิทธิภาพอาจทำให้ผู้ป่วยโรคเบาหวานเสี่ยงต่อการเกิดแผลที่เท้าได้
+                หากปล่อยทิ้งไว้โดยไม่ได้รับการรักษาอาจนำไปสู่การติดเชื้อ
+            </span>
+        </div>
+
+    </div>
+
+
+    <div class="sesstion-center wrapper-notice">
+        <div class="title">
+            <h1>มาลองตรวจดูไหม ?</h1>
+            <ul class="title-ul">
+                <h2><span>ตรวจอาการเบื้องต้นของ</span>เบาหวาน<span>ว่ามีโอกาสเสี่ยงมากน้อยแค่ไหน</span></h2>
+            </ul>
+
+            <img src="./Project_files/Arrow-down-256.png" style="height: 50%; width: 30%;">
+
+            <h5>อาการเบื้องต้น ดูจากพฤติกรรม ของแต่ละคน</h5>
+
+        </div>
+    </div>
+
+    <section class="sesstion-center current">
+        <div class="contener">
+            <div class="contenerleft">
+                <div class="con-lef">
+                    <table class="table table-responsive">
+                        <thead>
+                            <tr>
+                                <th>อาการเบื้องต้น</th>
+                                <th>เกิดขึ้นแน่นอน &nbsp; ไม่แน่ใจ &nbsp; ไม่เกิดขึ้น</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>
+                                    <div class="radiotext">
+                                        <div class="radiotext">
+                                            <label for="regular">การปัสวะของคุณเกิดขึ้นมากกว่าปกติใช่มั๊ย<button id="con1" class="buttoncon">?</button></label>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="radio">
+                                        <label> <input type="radio" data-choice="1" name="c1" value="1">
+                                            <input type="radio" data-choice="1" name="c1" value="0.4">
+                                            <input type="radio" data-choice="1" name="c1" value="-1"> </label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="radiotext">
+                                        <label for="regular">ในระยะนี้คุณมีอาการเหนื่อยง่ายหรือไม่<button id="con2" class="buttoncon">?</button></label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="radio">
+                                        <label> <input type="radio" data-choice="2" name="c2" value="1">
+                                            <input type="radio" data-choice="2" name="c2" value="0.4">
+                                            <input type="radio" data-choice="2" name="c2" value="-1"> </label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="radiotext">
+                                        <label for="regular">มีความกระหายน้ำมากกว่าปกติ<button id="con3" class="buttoncon">?</button></label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="radio">
+                                        <label> <input type="radio" data-choice="3" name="c3" value="1">
+                                            <input type="radio" data-choice="3" name="c3" value="0.4">
+                                            <input type="radio" data-choice="3" name="c3" value="-1"> </label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="radiotext">
+                                        <label for="regular">ระยะนี้มีอาการตาพร่ามัวหรือไม่<button id="con4" class="buttoncon">?</button></label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="radio">
+                                        <label> <input type="radio" data-choice="4" name="c4" value="1">
+                                            <input type="radio" data-choice="4" name="c4" value="0.4">
+                                            <input type="radio" data-choice="4" name="c4" value="-1"> </label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="radiotext">
+                                        <label for="regular">น้ำหนักของคุณขึ้นลงผิดปกติ<button id="con5" class="buttoncon">?</button></label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="radio">
+                                        <label> <input type="radio" data-choice="5" name="c5" value="1">
+                                            <input type="radio" data-choice="5" name="c5" value="0.4">
+                                            <input type="radio" data-choice="5" name="c5" value="-1"> </label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="radiotext">
+                                        <label for="regular">คุณหิวตลอดเวลา<button id="con6" class="buttoncon">?</button></label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="radio">
+                                        <label> <input type="radio" data-choice="6" name="c6" value="1">
+                                            <input type="radio" data-choice="6" name="c6" value="0.4">
+                                            <input type="radio" data-choice="6" name="c6" value="-1"> </label>
+                                    </div>
+                                </td>
+                            </tr>
+
+
+                        </tbody>
+
+                    </table>
+                    <button class="buttoncon" id="conBtn">submit</button>
+                    <!--                  
+
+
+                        <tr>
+                                <th>Courier</th>
+                                <th>Service</th>
+                            </tr>
+                   <div class="radiotext">การปัสวะของคุณเกิดขึ้นมากกว่าปกติใช่มั๊ย&nbsp;&nbsp;<button id="con1" class="buttoncon">?</button>  <div class="radiocheck">
+                    <input type="radio" data-choice="1" name="c1" value="1"> 
+                    <input type="radio" data-choice="1" name="c1" value="0.4">
+                    <input type="radio" data-choice="1" name="c1" value="-1">  
+                  </div>
+                </div>
+                   <div class="radiotext">ในระยะนี้คุณมีอาการเหนื่อยง่ายหรือไม่&nbsp;&nbsp;<button id="con2"class="buttoncon">?</button><div class="radiocheck">
+                    <input type="radio" data-choice="2" name="gender2" value="1"> 
+                    <input type="radio" data-choice="2" name="gender2" value="0.4"> 
+                    <input type="radio" data-choice="2" name="gender2" value="-1"> 
+                  </div></div>
+                   <div class="radiotext">มีความกระหายน้ำมากกว่าปกติ&nbsp;&nbsp;<button id="con3"class="buttoncon">?</button><div class="radiocheck">
+                    <input type="radio" data-choice="3"name="gender3" value="1"> 
+                    <input type="radio" data-choice="3" name="gender3" value="0.4"> 
+                    <input type="radio" data-choice="3" name="gender3" value="-1"> 
+                  </div></div>
+                   <div class="radiotext">ระยะนี้มีอาการตาพร่ามัวหรือไม่&nbsp;&nbsp;<button id="con4"class="buttoncon">?</button><div class="radiocheck">
+                    <input type="radio" data-choice="4" value="1"> 
+                    <input type="radio" data-choice="4" value="0.4"> 
+                    <input type="radio" data-choice="4" value="-1"> 
+                  </div></div>
+                   <div class="radiotext">น้ำหนักของคุณขึ้นลงผิดปกติ&nbsp;&nbsp;<button id="con5"class="buttoncon">?</button><div class="radiocheck">
+                    <input type="radio" data-choice="5" value="1"> 
+                    <input type="radio" data-choice="5" value="0.4"> 
+                    <input type="radio" data-choice="5" value="-1"> 
+                  </div></div>
+                   <div class="radiotext">คุณหิวตลอดเวลา&nbsp;&nbsp;<button id="con6"class="buttoncon">?</button><div class="radiocheck">
+                    <input type="radio" data-choice="6" value="1"> 
+                    <input type="radio" data-choice="6" value="0.4"> 
+                    <input type="radio" data-choice="6" value="-1"> 
+                  </div></div>
+                  <button class="buttoncon"id="conBtn">submit</button>
+                 </div>
+             
+                </div>  -->
+                </div>
+            </div>
+            <div class="contenerright">
+
+                <p>
+                    </p><div class="d-none" id="total">
+                        <h1>มีโอกาสเสี่ยง </h1><br>เบื้องต้นพบว่ามีโอกาสเสี่ยงที่จะเป็นโรคเบาหวาน</div>
+                <p></p>
+                <div class=" d-none" id="cond1"> ปัสสาวะบ่อยขึ้น <br>หากเริ่มมีอาการปัสสาวะบ่อยขึ้นและหิวน้ำมากขึ้น โดยเฉพาะตอนกลางคืนจะกระหายน้ำมากกว่าเดิม
+                    นี่เป็นสัญญาณของโรคเบาหวาน เพราะร่างกายต้องการขับน้ำตาลที่มีอยู่สูงในเลือดออกมาทางปัสสาวะ
+                </div>
+                <div class=" d-none" id="cond2">อ่อนเพลีย <br> อาการอ่อนเพลียและอารมณ์ฉุนเฉียวเป็นสิ่งที่เกิดขึ้นกับผู้ป่วยเบาหวาน
+                    เมื่อมีระดับน้ำตาลในเลือดสูงจะส่งผลต่อการทำงานทุกระบบ และมีส่วนเกี่ยวข้องกับอารมณ์ด้วย
+                </div>
+                <div class=" d-none" id="cond3">หิวน้ำบ่อยขึ้น <br> หากเริ่มมีอาการปัสสาวะบ่อยขึ้นและหิวน้ำมากขึ้น โดยเฉพาะตอนกลางคืนจะกระหายน้ำมากกว่าเดิม
+                    นี่เป็นสัญญาณของโรคเบาหวาน เพราะร่างกายต้องการขับน้ำตาลที่มีอยู่สูงในเลือดออกมาทางปัสสาวะ
+                </div>
+                <div class=" d-none" id="cond4">ตามัว <br> การเกิดความผิดปกติของหลอดเลือดในดวงตาโป่งพอง จึงทำให้เกิดเลือดและน้ำเหลืองซึมออกมาจากหลอดเลือดบริเวณนั้น
+                    หากไม่รักษาจะทำให้จอตาขาดเลือดไปเลี้ยง เนื่องจากปริมาณน้ำเหลืองและเลือดที่ซึมออกมามากเกินไป ปล่อยไว้นาน
+                    ๆ อาจทำให้เซลล์รับรู้ในจอตาเสียหาย ส่งผลให้มองเห็นได้ไม่ชัด</div>
+                <div class=" d-none" id="cond5">น้ำหนักลงผิดปกติ <br> น้ำหนักที่ลดผิดปกติอาจเป็นสัญญาณเตือนของโรคบางชนิดก็ได้
+                    โดยเฉพาะเบาหวาน การมีน้ำตาลในเลือดสูง จะทำให้น้ำหนักลดลงเร็วมาก ประมาณ 5-10 กิโลกรัมภายใน 2-3 เดือน</div>
+                <div class=" d-none" id="cond6">หิวบ่อย <br> ถ้าเกิดหิวบ่อยและกินจุบจิบขึ้นมาโดยไม่ทราบสาเหตุ คุณอาจเป็นเบาหวานแล้วก็ได้
+                    เพราะเมื่อระดับน้ำตาลในเลือดต่ำ จะทำให้ร่างกายต้องการอาหารเพื่อเพิ่มระดับน้ำตาลในเลือด จึงส่งสัญญาณเป็นความหิวนั้นเอง
+                </div>
+                <div class=" d-none" id="cond7">fail
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="sesstion-center wrapper-notice">
+        <div class="C">
+            <div class="Cr">
+
+                <form>
+                    <div class="wrap">
+                        <h2>ผลตรวจจากโรงพยาบาล</h2>
+                        <div class="mat-div is-completed">
+                            <label for="first-name" class="mat-label">น้ำหนัก</label>
+                            <input type="text" class="mat-input" id="address1" val="9">
+
+                        </div>
+
+                        <div class="mat-div is-completed">
+                            <label for="first-name" class="mat-label">ส่วนสูง</label>
+                            <input type="text" class="mat-input" id="address2" val="9">
+                        </div>
+
+                        <div class="mat-div is-completed">
+                            <label for="address" class="mat-label">อายุ</label>
+                            <input type="text" data-text="1" class="mat-input" id="address3" val="">
+                        </div>
+                        <div class="mat-div is-completed">
+                            <label for="address" class="mat-label">ปริมาณอินซูลิน</label>
+                            <input type="text" data-text="2" class="mat-input" id="address4" val="">
+                        </div>
+                        <div class="mat-div is-completed">
+                            <label for="address" class="mat-label">ความดันเลือด</label>
+                            <input type="text" data-text="3" class="mat-input" id="address5" val="">
+                        </div>
+                        <div class="mat-div is-completed">
+                            <label for="address" class="mat-label">ความหนหาผิวหนังกล้างเนื้อแขนด้านหลัง</label>
+                            <input type="text" data-text="4" class="mat-input" id="address6" val="">
+                        </div>
+                        
+                            
+                                <div class="radiotext">
+                                    <label for="regular">ประวัติโรคเบาหวานทางพันธุกรรม</label>
+                                </div>
+                            
+                            
+                                <div class="radio">
+                                    <label>
+                                        มี &nbsp; <input type="radio" name="Xna" value="0"> ไม่มี &nbsp; <input type="radio" name="Xna" value="0.4">
+                                    </label>
+                                </div>
+                            
+                        
+                        <input id="textBtn" type="button" value="Continue">
+
+                
+                <!-- <script type="text/javascript">  
+              function get(){  
+              var address1=document.getElementById("address1").value;  
+              $("#addressx1").text(address1);
+              var address2=document.getElementById("address2").value;  
+              $("#addressx2").text(address2);
+              var address3=document.getElementById("address3").value;  
+              $("#addressx3").text(address3);
+              var address4=document.getElementById("address4").value;  
+              $("#addressx4").text(address4);
+              var address5=document.getElementById("address5").value;  
+              $("#addressx5").text(address5);
+              var address6=document.getElementById("address6").value;  
+              $("#addressx6").text(total);
+              }  
+              
+              </script>  -->
+                </div></form>
+            </div>
+            <div class="Cf">
+                <p>
+                    </p><div class="d-none" id="totalper">
+                        <h1>มีโอกาสเสี่ยง</h1><br>เบื้องต้นพบว่ามีโอกาสเสี่ยงที่จะเป็นโรคเบาหวาน</div>
+                <p></p>
+                <span id="addressx1" class="">fail</span><p></p>
+                <!-- <span id="addressx2">0</span></p>
+                <span id="addressx3">0</span></p>
+                <span id="addressx4">0</span></p>
+                <span id="addressx5">0</span></p>
+                <span id="addressx6">0</span></p> -->
+            </div>
+        </div>
+    </section>
+
+
+<script src="./Project_files/scripts.js"></script>
+
+</body></html>

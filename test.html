@@ -1,0 +1,19 @@
+<button onclick='send()'>Send</button>
+<script>
+  var send = function() {
+    var request = new XMLHttpRequest();
+   
+    request.open('POST', 'localhost:5000/post', false);
+
+    var formData = new FormData();
+    formData.append('key1', 'value1');
+    formData.append('key2', 'value2');
+    formData.append('key3', 'value1');
+    formData.append('key4', 'value4');
+    formData.append('key5', 'value5');
+    formData.append('key6', 'value6');
+
+    request.send(formData);
+    console.log(request.response);
+  };
+</script>
